@@ -12,7 +12,7 @@ function partOne(int){
 
 // Part 2
 function partTwo(array){
-    numsString = nums.join()
+    numsString = array.join()
     console.log(numsString)
     axios.get(`${numbersURL}/${nums}?json`)
         .then(response => {
